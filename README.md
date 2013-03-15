@@ -6,8 +6,9 @@ Can be used as a boilerplate to express apps, or to deliver content quickly & te
 
 Usage
 =====
-    git clone https://github.com/cGuille/express-publisher.git
-    npm install
+    git clone https://github.com/cGuille/express-publisher.git &&
+    cd express-publisher &&
+    npm install &&
     sudo npm start
 
 Note that npm start should require privilieges because it listens to the port 80.
