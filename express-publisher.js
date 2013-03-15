@@ -22,5 +22,9 @@
         console.info('Server running on ' + binding.address + ':' + binding.port + ' (' + binding.family + ')');
         console.info('Files will be served from "' + servingDirectory + '"');
     });
+
+    httpServer.on('error', function (error) {
+        console.error("Error: ", error);
+    });
 }());
 
