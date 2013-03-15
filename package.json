@@ -1,6 +1,6 @@
 {
     "name": "express-publisher",
-    "description": "A raw express app that serve static content",
+    "description": "A raw express app that serves static content",
     "author": {
         "name" : "Guillaume Charmetant",
         "email" : "cguille.dev@gmail.com",
