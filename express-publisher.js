@@ -14,6 +14,7 @@
     app.configure(function () {
         app.use(express.compress());
         app.use(express.logger('dev'));
+        app.use(express.directory(servingDirectory));
         app.use(express.static(servingDirectory));
     });
 
