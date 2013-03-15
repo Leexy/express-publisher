@@ -1,0 +1,17 @@
+{
+    "name": "express-publisher",
+    "description": "A raw express app that serve static content",
+    "author": {
+        "name" : "Guillaume Charmetant",
+        "email" : "cguille.dev@gmail.com",
+        "url" : "http://twitter.com/cGuille"
+    },
+    "scripts": {
+        "start": "node express-publisher.js 80",
+        "preinstall": "mkdir public"
+    },
+    "dependencies": {
+        "express": "~3"
+    }
+}
+
