@@ -2,8 +2,16 @@
 
 (function () {
     'use strict';
-    var express = require('express'),
-        app = express(),
+    
+    try {
+        var express = require('express');
+    } catch (error) {
+        console.error(error.message);
+        console.error('Did you run `npm install`?');
+        process.exit(1);
+    }
+    
+    var app = express(),
         appPort = +process.argv[2],
         servingDirectory = __dirname + '/public';
 
