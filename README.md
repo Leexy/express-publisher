@@ -11,7 +11,8 @@ Usage
     npm install
     sudo npm start
 
-Then, you can browse to [http://localhost/](http://localhost/).
+Add the files to serve in the `public` directory which should have been created into the project folder.
+Then, you can browse these files to [http://localhost/](http://localhost/).
 
 Note that npm start should require privilieges because it listens to the port 80.
 If you want to start the server on another port, you may use the following command:
