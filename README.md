@@ -11,9 +11,15 @@ Usage
     npm install
     sudo npm start
 
+Then, you can browse to [http://localhost/](http://localhost/).
+
 Note that npm start should require privilieges because it listens to the port 80.
 If you want to start the server on another port, you may use the following command:
 
     node express-publisher.js [port]
     
 Where [port] is the port you want to listen to.
+
+Live demo
+=========
+You can check the live demo [on my personnal website](http://publisher.guillaumecharmetant.com/).
