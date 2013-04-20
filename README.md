@@ -22,4 +22,4 @@ Where [port] is the port you want to listen to.
 
 Live demo
 =========
-You can check the live demo [on my personnal website](http://publisher.guillaumecharmetant.com/).
+You can check the live demo [on my personal website](http://publisher.guillaumecharmetant.com/).
